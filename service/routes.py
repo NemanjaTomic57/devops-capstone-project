@@ -75,6 +75,7 @@ def list_accounts():
     app.logger.info("Returniing [%s] accounts", len(account_list))
     return jsonify(account_list), status.HTTP_200_OK
 
+
 ######################################################################
 # READ AN ACCOUNT
 ######################################################################
